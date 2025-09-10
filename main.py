@@ -1,5 +1,5 @@
-from chapter3 import ii_ii_langchain_for_style
+from chapter3 import ii_iii_outputParser
 
-ii_ii_langchain_for_style.transform_sent_email()
+ii_iii_outputParser.with_output_parser()
 
 
