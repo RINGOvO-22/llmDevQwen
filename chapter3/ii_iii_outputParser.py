@@ -60,7 +60,7 @@ def without_output_parser():
 
     messages = prompt_template.format_messages(text=customer_review)    
     
-    response = chat(messages)
+    response = chat.invoke(messages)
 
     print("结果类型:", type(response.content))
     print("结果:", response.content)
@@ -113,7 +113,7 @@ def with_output_parser():
     messages = prompt.format_messages(text=customer_review, format_instructions=format_instructions)
     print("第一条客户消息:",messages[0].content)
 
-    response = chat(messages)
+    response = chat.invoke(messages)
 
     print("结果类型:", type(response.content))
     print("结果:", response.content)
