@@ -9,7 +9,7 @@
 """
 
 from langchain_openai import ChatOpenAI
-from utils import apiLoader
+from src import apiLoader
 from langchain.prompts import ChatPromptTemplate
 
 customer_review = """\

@@ -1,4 +1,4 @@
-from utils import get_completion
+from src import get_completion
 
 """
 主题: 不使用 LangChain, 手动构造提示词模板
